@@ -1,0 +1,18 @@
+{
+  "name": "node-practice",
+  "version": "0.0.1",
+  "main": "KataPractice.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "jeffworley",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  },
+  "description": ""
+}
