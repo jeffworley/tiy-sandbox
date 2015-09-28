@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+body {
+  font-family: 'Bangers', cursive;
+  font-size: 1.5em;
+}
+
+#dex1 {
+  box-sizing: border-box;
+  height: 20%;
+  background-color: #00A9CC;
+  border: 1px solid grey;
+}
+
+#inline-ex {
+  width: auto;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#dex2 {
+  box-sizing: border-box;
+  height: 20%;
+  background-color: #4B8C99;
+  border: 1px solid grey;
+}
+
+#nested-block {
+  box-sizing: border-box;
+  display: block;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#dex3 {
+  box-sizing: border-box;
+  height: 20%;
+  background-color: #FF6F6B;
+  border: 1px solid grey;
+}
+
+#inline-block-ex {
+  box-sizing: border-box;
+  display: inline-block;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#dex4 {
+  box-sizing: border-box;
+  height: 20%;
+  background-color: #CC497F;
+  border: 1px solid grey;
+}
+
+.inline-block-ex2 {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 30%;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#dex5 {
+  box-sizing: border-box;
+  height: 20%;
+  background-color: #00FF9D;
+  border: 1px solid grey;
+}
+
+#dex6 {
+  float: left;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#dex7 {
+  float: right;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#dex8 {
+  float: none;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#dex9 {
+  box-sizing: border-box;
+  height: 20%;
+  background-color: #CC49C3;
+  border: 1px solid grey;
+}
+
+#span-fl {
+  float: left;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#span-fr {
+  float: right;
+  background-color: lightgrey;
+  border: 1px solid black;
+}
+
+#span-fn {
+  float: none;
+  background-color: lightgrey;
+  border: 1px solid black;
+}

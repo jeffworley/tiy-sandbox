@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <link href="display.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    </header>
+    <div id="dex1">
+      <span id="inline-ex">Example of a native inline span!!!  It does not have width and height properties and is displayed as flow content.</span>
+    </div>
+    <div id="dex2">
+      <span id="nested-block">Example of a span with display set to block!!!  By default and regardless of content it takes up the entire width of the page.</span>
+    </div>
+    <div id="dex3">
+      <span id="inline-block-ex">Example of a span with display set to inline-block!!!  It has the same properties as a block element but is displayed as flow content.</span>
+    </div>
+    <div id="dex4">
+      <span class="inline-block-ex2">This is how you can create separation of content with inline-block and relative width settings!!!</span>
+      <span class="inline-block-ex2">Next column!!!</span>
+      <span class="inline-block-ex2">And another column!!!></span>
+    </div>
+    <div id="dex5">
+      <span>Now for those floats!!!  This is the span in the parent div!!!</span>
+      <div id="dex6">
+        <span>This is floated left!!!
+          <br/>  And is styled by targeting the first child div!!!</span>
+      </div>
+      <div id="dex7">
+        <span>This is floated right!!!
+          <br/>  And is styled by targeting the second child div!!!</span>
+      </div>
+      <div id="dex8">
+        <span>This is set to float none and is styled by targeting the last child div!!!</span>
+      </div>
+    </div>
+    <div id="dex9">
+      <span>This is a span that is not floated</span>
+      <span id="span-fl">This is floated left!!!
+        <br/>And is styled by targeting the first child span!!!</span>
+      <span id="span-fr">This is floated right!!!
+        <br/>And is styled by targeting the second child span!!!</span>
+      <span id="span-fn">Ths is set to float none and is syled by targeting the last child span!!!</span>
+    </div>
+    <footer>
+    </footer>
+  </body>
+</html>
